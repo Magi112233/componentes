@@ -5,7 +5,8 @@
    font-family: sans-serif;
 }
 body{
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
+    background-color: lightpink;
     overflow: scroll;
 }
 .card-container{
@@ -21,12 +22,21 @@ body{
     overflow: hidden;
     box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
     margin: 20px;    
-}
-.card img{
-    /* width: 100px; */
-    height: auto;
+    /* background-color: yellow; */
     
 }
+
+.card img{
+display: block;
+    margin: auto;
+    margin-top: 20px;
+    border-top-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+    /* border: 1px solid red; */
+
+ 
+}
+
 .card-contant{
     padding: 16px;
 }

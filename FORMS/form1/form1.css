@@ -5,6 +5,11 @@
 
 body{
   background-color: whitesmoke;margin-top: 40px;
+  background-image: url(light-image.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ 
 }
 
 h2{
@@ -15,17 +20,18 @@ h2{
 
 form{
     /* width: fit-content;     */
-    background-color:rgb(255, 69, 0) ;
+  background-color:  lightslategray;
     margin: auto;
     margin-bottom: 70px;
     border-radius: 15px;
     padding: 50px;
     width: 35%;
+   
 }
 
 label{
     font-size: 30px;   
-    margin-top: 7px;
+   
 }
 
 .text-input{
@@ -38,6 +44,8 @@ label{
     margin-bottom: 20px;
     border-radius: 5px;
     outline-color: red;
+    
+
 }
 
 .gender{
@@ -70,3 +78,56 @@ input[type="radio"] {
     font-size: 80px;
 }
 
+
+ 
+/* mobile */
+@media (max-width:600px){
+   form{
+    width: 80%;
+    padding: 25px;
+   }
+   .text-input{
+    width: 95%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+   }
+   label{
+    font-size: 23px;   
+    margin-top: 6px;
+}
+h2{
+    font-size: 33px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+input[type="radio"] {
+    font-size: 60px;
+}
+.r-label{
+    font-size: 20px;
+}
+
+}
+
+/* tablet */
+@media (min-width:601px) and (max-width:1024px){
+    form{
+        width: 80%;
+        padding:35px ;
+    }
+    .text-input{
+        width: 98%;
+        margin-bottom: 22px;
+        margin-top: 5px;
+
+    }
+    label{
+        font-size: 25px;
+        
+        
+    }
+    .r-label{
+        font-size: 22px;
+      
+    }
+}
