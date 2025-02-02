@@ -79,6 +79,12 @@ body{
 .btn:hover{
     background-color: var(--clr-primary-light);
 }
+.clearfix::after,
+.clearfix::before{
+    content: '';
+    clear: both;
+    display: tabel;
+}
 /* ------------------------Nvebar-------------------------- */
 .nav-btn svg{
     fill:var(--clr-primary);
@@ -200,7 +206,7 @@ top: 5px;
     text-shadow: 2px 5px 5px var(--ff-primary);
     animation: flame 1s infinite;
 }
-/* @keyframes flame{
+@keyframes flame{
     0%,100%{
        background-color: rgb(238, 4, 4);
     }
@@ -213,7 +219,7 @@ top: 5px;
     75%{
        background-color:rgb(255, 255, 0);
     }
-} */
+}
 
 .banner-btn{
     font-size: 1rem;
@@ -224,4 +230,54 @@ top: 5px;
 .banner-btn:hover{
     outline: 0.125rem solid var(--clr-primary);
     outline-offset: 0.25rem;
+}
+.content-divider{
+    height: 0.5rem;
+    background-image: linear-gradient(to left,var(--clr-primary),var(--clr-secondary),var(--clr-primary));
+}
+/* -------------features------------------------ */
+.features{
+    background-color: var(--clr-grey-3);
+    cursor: pointer;
+}
+.feature{
+    padding: 2.5rem 0;
+    text-align: center;
+    transition: var(--transition);    
+}
+.feature-icon img{
+    width: 100px;
+    height: 100px;
+    margin-left: 46%;
+   
+}
+.feature-title{
+    text-transform: uppercase;
+}
+.feature-text{
+    color: var(--clr-grey-2);
+    max-width: 17rem;
+    margin: 0 auto;
+}
+.feature:hover{
+    background-color: var(--clr-white);
+    box-shadow: 0 2px var(--clr-primary);
+}
+.feature-title:hover{
+    color: var(--clr-primary);
+}
+.feature:hover .feature-icon img{
+   fill: var(--clr-primary);
+   transform: translateY(-5px);
+}
+@media screen and (min-width:576px){
+    .feature{
+        width: 50%;
+        float: left;
+    }
+}
+@media screen and (min-width:1200px){
+    .feature{
+        width: 25%;
+    }
 }
