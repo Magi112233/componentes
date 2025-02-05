@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(32,145,221);   
+}
+ul{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 50px;    
+}
+ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+}
+.thumbnail{
+    padding-top:7% ;
+}
+.thumbnail li{
+    list-style: none;
+    position: relative;
+    margin-top: 50px;
+}
+.thumbnail img{
+    display: block;
+    max-width: 120px;  
+    transition: 0.5s;
+
+  
+}
+.thumbnail img:hover{
+    transform: translateX(30px);
+    cursor: pointer;
+    transition: 0.5s;
+} 
+.big-img img{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    max-width: 500px;
+    max-height: 300px;
+    /* mix-blend-mode: multiply;
+   filter: brightness(1) contrast(2); */
+}
+.content{
+    position: absolute;
+    cursor: pointer;
+    max-width: 40%;
+    right: 3%;
+    top: 20%;
+}
+.content p{
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: cursive;
+    text-shadow: 1px 0px 5px rgb(0,0,0,0.5);
+    margin-left: 16%;
+}
+.content h1{
+    font-size: 80px;
+    font-weight: 600;
+    font-family: fantasy;
+    color: rgb(28,211,211);
+    text-shadow: 5px 5px 2px rgb(0,0,0,0.5);
+}
+.content h5{
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 1px black;
+    text-transform: uppercase;
+    margin-left: 10%;
+}
+.path{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #e5e5e5;
+    clip-path:circle(520px at left 300px) ;
+}
+
+@media (max-width:600px){
+    
+    /* .big-img img{
+        top: 50%;
+        max-width: 500px;
+        max-height: 300px;       
+    } */
+
+    .path{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-color: #e5e5e5;
+        clip-path:circle(200px at left 250px top 30px) ;
+    }
+
+    ul {
+       
+        position: static;
+        /* top: 5%;
+        right: 5%; */
+        display: flex;
+        /* display: flex; */
+        /* background-color: green;
+        padding:30px ; */
+    }
+
+    /* .big-img img{
+        position: static;
+    } */
+
+    /* .path{
+        position: static;
+    } */
+}
