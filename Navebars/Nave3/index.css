@@ -48,6 +48,7 @@ header{
 }
 #menu-icon{
     color: #fff;
+    /* background-color: aqua; */
     font-size: 35px;
     z-index: 10001;
     cursor: pointer;
@@ -75,10 +76,11 @@ section{
 .home{
     width: 100%;
     /* background-color: aqua; */
-    height: 100vh;
+    /* height: 100vh; */
     display: grid;
     grid-template-columns: 1,1fr;
     align-items: center;
+    padding-top: 150px;
 }
 .home-text h4{
     color: #fff;
@@ -131,5 +133,86 @@ section{
     right: 10px;
 }
 .right{
-    background-color: pink;
+    /* background-color: pink; */
+    position: absolute;
+    top: 70%;
+    right: -150px;
+    padding: 0 5%;
+    transform: rotate(90deg);
 }
+.right a{
+    color: #fff;
+    margin: 0 15px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: all .42s;
+}
+.right a:hover{
+    color: #CE1B41;
+}
+
+/* RESPONSIVE -CSS */
+@media(max-width:995px){
+    header{
+        padding: 18px 20px;
+        transition: .3s;
+        }
+}
+@media(max-width:685px){
+    .home-text h4{
+        font-size: 16px;
+        transition: .3s;
+    }
+    .home-text h1{
+        font-size: 40px;
+        transition: .3s;
+    }
+    .home-text p{
+        font-size: 14px;
+        transition: .3s;
+    }
+}
+@media(max-width:425px){
+    .home-text h1{
+        font-size: 35px;
+        transition: .3s;
+    }
+}
+@media(max-width:580px){
+    .right{
+        right: -120px;
+        transition: .3s;
+        top: 50%;
+    }
+}
+@media(max-width:925px){
+    #menu-icon{
+        display: block;
+    }
+    .navlist{
+        position: absolute;
+        top: -600px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color: #152f5d;
+        transition: all .42s;
+    }
+    .navlist a{
+        display: block;
+        padding: 16px;
+        margin: 8px;
+    }
+    .navlist.open{
+        top: 100%;
+    }
+}
+@media(max-width:825px){
+    .home-btn{
+        background-color: #152f5d;
+        border: 2px solid #152f5d;
+    }
+}
+
