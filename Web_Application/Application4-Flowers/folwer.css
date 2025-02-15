@@ -150,7 +150,7 @@ header .fa-bars{
     border: 1.5rem solid #fff;
     border-radius: .5rem;
     box-shadow: 0.5rem 1rem rgba(0,0,0,.1);
-    height: 90%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -168,6 +168,8 @@ header .fa-bars{
 
 .about .row .content{
     flex: 1 1 40rem;
+    /* background-color: green; */
+    margin-left: 40px;
 }
 
 .about .row .content h3{
@@ -180,6 +182,7 @@ header .fa-bars{
     color: #999;
     padding:.5rem 0;
     line-height: 1.5;
+    margin-top: 1rem;
 }
 
 .icons-container{
@@ -387,6 +390,7 @@ header .fa-bars{
 
 .contact .row .image img{
     width: 100%;
+    height:540px;
 }
 
 .contact .row form .box{
@@ -439,6 +443,7 @@ header .fa-bars{
 
 .footer .box-container .box img{
     margin-top: 1rem;
+    height: 90px;
 }
 
 .footer .credit{
