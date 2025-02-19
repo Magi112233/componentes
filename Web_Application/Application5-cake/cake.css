@@ -301,3 +301,73 @@ section{
     color: #fff;
     text-decoration: line-through;
 }
+
+/* new arrivals */
+
+.new-arrivals .wrapper .card{
+    background-color: #ffdca9;
+    border: var(--border);
+}
+.new-arrivals .wrapper .card .img{
+   width: 100%;
+}
+.new-arrivals .wrapper .card .img img{ 
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+} 
+.new-arrivals .wrapper .card .content{
+    padding: 2rem;
+}
+.new-arrivals .wrapper .card .content a:nth-of-type(1){
+    font-size: 2.5rem;
+    line-height: 5rem;
+    color: var(--black);
+}
+.new-arrivals .wrapper .card:hover .content p{
+    color: var(--black);
+}
+.new-arrivals .wrapper .card .content p{
+    color: gray;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 20px;
+}
+.new-arrivals .wrapper .card .content .btn{
+    display: block;
+   transform: scale(0);
+   margin-left: 25%;
+   margin-right: 25%;
+}
+.new-arrivals .wrapper .card:hover .content .btn{
+    transform: scale(1);
+}
+
+/* about section */
+.about .container{
+    display: flex;
+    justify-content: center;
+    background-color: var(--black);
+    flex-wrap: wrap;
+}
+.about .container .img{
+    flex: 1 1 45rem;
+}
+.about .container .img img{
+    width: 100%;
+}
+.about .container .content{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+.about .container .content h3{
+    font-size: 3rem;
+    color: #fff;
+    padding: 1.2rem 0;
+}
+.about .container .content p{
+    font-size: 1.6rem;
+    color: #ccc;
+    padding: 1rem;
+    line-height: 2.2rem;
+}
