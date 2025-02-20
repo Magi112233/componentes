@@ -4,7 +4,7 @@
     --bg-color:#e8f3f1;
     --black:#2f4858;
     --card-color:#c0dbea;
-    --border:1rem solid var(--card-color);
+    --border:0.1rem solid var(--card-color);
     --box-shadow: 0 0 10px rgba(0,0,0,0.5);
     
 }
@@ -261,7 +261,7 @@ section{
     text-align: center;
     background-color: #eac7c7;
     padding: 2rem;
-    border: var(--border);
+    border:2px solid var(--border);
 }
 .cheese-cakes .wrapper .cheese-card:hover{
     box-shadow:var(--box-shadow)
@@ -436,16 +436,16 @@ section{
     background-color: var(--black);
     flex-wrap: wrap;
     gap: 1rem;
-    height: 50rem;
+    /* height: 50rem; */
 }
 .contact .contacts iframe{
-    height: 100%;
-    
+    height: 50rem; 
     flex: 1 1 45rem;
     object-fit: cover;
+    
 }
 .content .contacts form{
-    height: 100%;
+    height: 50rem;
     flex: 1 1 45rem;
     text-align: center;
     padding: 5rem 2rem;
@@ -460,7 +460,7 @@ section{
     display: flex;
     align-items: center;
     margin-bottom: 2rem;
-    border: var(--border);
+    border:2px solid #c0dbea;
 }
 .contact .contacts form .input-box span{
     color: #fff;
@@ -474,4 +474,57 @@ section{
     width: 100%;
     padding: 2rem;
     font-size: 1.8rem;
+}
+
+/* footer */
+footer{
+    background-color: var(--black);
+    text-align: center;
+}
+.footer .social-media{
+    padding: 1rem 0;
+}
+.footer .social-media a{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #fff;
+    border:2px solid #c0dbea;
+    margin: 0.5rem;
+}
+.footer .social-media a:hover{
+   background-color: var(--main-color);
+}
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+.footer .links a{
+    padding: 0.7rem 2rem;
+    color: #fff;
+    border:2px solid #c0dbea;
+    font-size: 2rem;
+}
+.footer .links a:hover{
+    background-color:var(--main-color);
+}
+.footer .credits{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: lighter;
+    padding: 1.5rem;
+}
+.footer .credits span{
+    color: var(--main-color);
+}   
+
+/* tablet and small laptops */
+@media (max-width:992){
+  
+   
 }

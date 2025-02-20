@@ -72,7 +72,7 @@ nav li:first-child{
         display: block;
     }
 }
-@medie(max-width:400px){
+@media(max-width:400px){
     .sidebar{
         width: 100%;
     }
