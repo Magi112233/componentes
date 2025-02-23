@@ -7,6 +7,14 @@ html{
     font-size: 12pt;
     font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
 }
+body{
+    background-image: url(pexels-pixabay-414061.jpg);
+    background-size: cover;
+    background-repeat: no-repeat    ;
+    /* background-position: center; */
+
+
+}
 nav{
     height: 60px;   
     background-color: var(--color-1);

@@ -13,3 +13,12 @@ cartIcon.addEventListener("click", () => {
   cartItemContainer.classList.add("active");
   searchForm.classList.remove("active");
 });
+
+function menuicon() {
+  const menuicon = document.querySelector(".navbar");
+  menuicon.style.display = "flex";
+}
+function sideberclose() {
+  const hidesidebar = document.querySelector(".navbar");
+  hidesidebar.style.display = "none";
+}

@@ -32,9 +32,7 @@ nav li a{
     color: black;
     height: 100%;
     padding: 0 30px;
-    /* margin-top: 25px; */
     cursor: pointer;
-   
 }
 
 
@@ -63,9 +61,11 @@ nav li:first-child{
     flex-direction: column;
     align-items: flex-start;
     justify-items: flex-start;
+    /* transition: 3s; */
 }
 .sidebar a{
     width: 250px;
+    
 }
 
 
@@ -74,6 +74,9 @@ nav li:first-child{
         display: none;
     }
     .menu-button{
+        display: block;
+    }
+    .closebar{
         display: block;
     }
 }

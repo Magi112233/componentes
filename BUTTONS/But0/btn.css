@@ -1,0 +1,86 @@
+  /* ------btn1--------     */
+  .btn1{
+    background-color: #e78f38;
+    color: white;
+    border: none;
+    padding: 12px 45px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 2rem;
+    transition: .3s;
+  }
+  .btn1:hover{
+    scale: .8;
+  }
+
+  /* --------btn2------- */
+  .btn2{
+    background-color: transparent;
+    border: 2px solid #e78f38;
+    color: #e78f38;
+    padding: 12px 45px;
+    border-radius: 2rem;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .3s;
+  }
+.btn2:hover{
+    background-color: #e78f38;
+    color: white;
+    scale: .8;
+}
+
+/* -----------btn3------------ */
+.btn3{
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 2rem;
+    padding: 12px 45px;
+    background-image: linear-gradient(180deg, #f53b57 80%,#e9b949);
+    border: none;
+    outline: none;
+}
+.btn3:hover{
+    outline: 0.125rem solid #f53b57 ;
+    outline-offset: 0.25rem;
+}
+/* ----------btn4------ */
+.btn4{
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    padding: 12px 45px;
+    background: linear-gradient(45deg,#ff416c,#ff4b2b);
+    border-radius: 2rem;
+    transition: 0.3s;
+}
+.btn4:hover{
+    transform: scale(1.05);
+}
+/* ----------btn5-------- */
+.btn5{
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    padding: 12px 45px;
+    background-color: #333;
+    color: white;
+    border-radius: 2rem;
+}
+.btn5:hover{
+    background-color: #e84393;
+}
+/* --------------btn6------ */
+.btn6{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 45px;
+    border: none;
+    outline: none;
+    background-color: #00c9a5;transition: 0.3s;
+}
+.btn6:hover{
+    letter-spacing: 0.2rem;
+    color: white;
+}
