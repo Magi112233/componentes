@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style: none;
+}
+body{
+    background-image: url(image/pexels-janetrangdoan-1092730.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sidebar{
+    display: none;
+}
+nav{
+    background-color: antiquewhite;
+}
+`   `   ```````````````````````````````````````````````````````````````````````````````````
+nav li a{
+    font-size: 25px;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: black;
+}
+nav li a:hover{
+    color: black;
+    text-decoration:underline ;
+}
+nav ul{
+    display: flex;
+    justify-self: flex-end;
+    align-items: center;
+}
+
+nav li:first-child{
+    margin-right: 200px;
+}
+nav li:first-child:hover{
+    transform: translateX(20px);
+    color: darkred;
+}
+
+
+
+
+
+
+/* table */
+@media(max-width:600px){
+    .sidebar li .menu{
+        display: block;
+    }
+    .sidebar li  .close{
+        display: block;
+    }
+    .hide{
+        display: none;
+    }
+    .sidebar{
+        display: flex;
+        flex-direction: column;        
+        width: 250px;
+        top: 0;
+        left: 0;
+        background-color: pink;
+
+
+    }
+  
+   
+
+}
