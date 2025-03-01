@@ -166,3 +166,67 @@
     font-weight: bold;
 }
 /* ----------btn9----------- */
+.btn9{
+    border: none;
+    padding: 12px 45px;
+    transition: all 0.5s;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color:#b6a6a6;
+    color: white;
+}
+.btn9::before,
+.btn9::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+}
+.btn9:hover{
+    background: #f6e05e;
+    box-shadow: 0 0 5px #f6e05e, 0 0 25px #f6e05e, 0 0 50px #f6e05e, 0 0 200px #f6e05e;
+    color: #333;
+}
+/* --------10----------- */
+.btn10{
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7rem 2rem;
+    border: 3px solid #FF0072;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 2px 6px rgba(0, 0, 0, 0.1);
+    color: #FF0072;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 2;
+    cursor: pointer;
+}
+.btn10:before{
+    content: "";
+    transition: 0.5s all ease;
+        position: absolute;
+        top: 0;
+        left: 40%;
+        right: 50%;
+        bottom: 0;
+        opacity: 0;
+    background-color: #FF0072;
+    z-index: -1;
+}
+.btn10:hover,.btn10:focus{
+    color:white;
+ }
+.btn10:hover:before, .btn10:focus:before{
+    transition: 0.5s all ease;
+    left: 10%;
+    right: 10%;
+    opacity: 1;
+}
+.btn10:active{
+    transform: scale(0.9);
+}
+/* ----------- btn11----------- */
