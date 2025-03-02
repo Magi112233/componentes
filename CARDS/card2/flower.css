@@ -97,7 +97,7 @@ body{
     object-fit: cover;
     border-radius: 15px;
 }
-.container .card:hover p{
+.container .card p{
     position: absolute;
     padding: 40px;
     text-align: center;
