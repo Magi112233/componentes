@@ -126,3 +126,25 @@ body{
     box-shadow: 0 0 0 10px var(--clr);
 }
 
+
+/* ---------------home-------- */
+    .card2{
+        
+       margin-bottom: 500px;
+        /* display: flex;
+        justify-content: right; */
+    }
+    .card2 a{
+        font-size: 25px;
+        text-decoration: none;
+        margin-left: 30px;
+        margin-top: 20px;
+        color: red;
+
+    }
+    .card2 a:hover{
+        text-decoration: underline;
+        color: white;
+    }
+  
+

@@ -85,7 +85,7 @@ img{
     margin-bottom: 1.5rem;
 }
 .login__check-label, .login__forgot, .login__register{
-    font-size: var(--small-font-size);
+    font-size: var(--font-medium);
 }
 .login__ckeck-group{
     column-gap: 0.5rem;
@@ -129,9 +129,18 @@ img{
 }
 .login__input{
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(61, 54, 54);
+    ;
+    background: transparent;
+    margin-bottom: 20px;
 }
 .login__input{
 padding: 8px;
+position: relative;
+width: 100%;
 
+}
+.login__label{
+    position: absolute;
+    left:25px;
 }

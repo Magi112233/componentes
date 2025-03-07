@@ -59,3 +59,18 @@ display: block;
     color: #fff;
 }
 
+/* --------------home----- */
+.card1{
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+.card1 a{
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.card1 a:hover{
+    text-decoration: underline;
+    color: white;
+}

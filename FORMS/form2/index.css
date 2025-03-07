@@ -8,6 +8,8 @@ body{
     background: linear-gradient(90deg, rgba(29,71,253,0.6615021008403361) 20%, rgba(69,252,244,1) 100%);
     margin: 0;
     background-attachment: fixed;
+    height: 100vh;
+
 }   
 #form{
     width: 400px;
