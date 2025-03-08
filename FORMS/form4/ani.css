@@ -187,3 +187,12 @@ body{
     opacity: 0.8;
 
 }
+/* --------------links----------- */
+
+.mainlink a{
+    font-size: 20px;
+    color: white;
+}
+a:hover{
+    color: #ff2770;
+}

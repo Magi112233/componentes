@@ -131,15 +131,14 @@ body{
     .card2{
         
        margin-bottom: 500px;
-        /* display: flex;
-        justify-content: right; */
     }
     .card2 a{
         font-size: 25px;
         text-decoration: none;
-        margin-left: 30px;
+        /* margin-left: 30px; */
         margin-top: 20px;
         color: red;
+        margin-left: 50px;
 
     }
     .card2 a:hover{
