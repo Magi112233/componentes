@@ -136,10 +136,10 @@ input[type="radio"] {
 
 /* -------------main home--------- */
 a{
-    font-size: 22px;
+    font-size: 25px;
    color:deeppink;
     text-decoration: none;
-    margin-left: 15px;
+    margin-left: 35px;
  }
  a:hover{
     color: white;
