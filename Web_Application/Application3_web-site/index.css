@@ -1,0 +1,43 @@
+:root{
+    --red:crimson;
+    --green:#53BF9D;
+    --yellow:#FFC54D;
+    --white:whitesmoke;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.landing{
+    background-image: url(image/spicy.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: var(--white);
+}
+
+header a{
+    text-decoration: none;
+    color: var(--yellow);
+}
+
+header{
+    display: flex;
+    font-size: 1.25em;
+}
+
+#logo{
+    flex: 3;
+}
+
+nav{
+    flex: 2;
+    display: flex;
+}
+
+nav a{
+    flex: 1;
+}
+
