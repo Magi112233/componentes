@@ -1,76 +1,64 @@
+:root{
+    --bg-color:#f1f1f1;
+    --text:#333;
+    --white:#fff;
+    --active:#ff6600;
+    --active-dark:#bb4b00;
+    --normal:#555;
+}
+
+
+
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     list-style: none;
 }
+a{
+    color: var(--white);
+}
 body{
-    background-image: url(image/pexels-janetrangdoan-1092730.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: var(--bg-color);
 }
-.sidebar{
-    display: none;
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: var(--text);
 }
-nav{
-    background-color: antiquewhite;
-}
-`   `   ```````````````````````````````````````````````````````````````````````````````````
-nav li a{
+.logo{
+    cursor: pointer;
     font-size: 25px;
-    padding: 0px 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--active);
+    font-weight: bold;
 }
-nav li a:hover{
-    color: black;
-    text-decoration:underline ;
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
 }
-nav ul{
-    display: flex;
-    justify-self: flex-end;
-    align-items: center;
+.nav-links li a{
+    transition: 0.5s;
+    font-size: 18px;
+}
+.nav-links li a.active{
+    color: var(--active);
+}  
+.nav-links li a:hover{
+    color: var(--active);
+}
+.action{
+    padding: 9px;
+    background-color: var(--active);
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.action:hover{
+    background-color: var(--active-dark);
 }
 
-nav li:first-child{
-    margin-right: 200px;
-}
-nav li:first-child:hover{
-    transform: translateX(20px);
-    color: darkred;
-}
 
-
-
-
-
-
-/* table */
-@media(max-width:600px){
-    .sidebar li .menu{
-        display: block;
-    }
-    .sidebar li  .close{
-        display: block;
-    }
-    .hide{
-        display: none;
-    }
-    .sidebar{
-        display: flex;
-        flex-direction: column;        
-        width: 250px;
-        top: 0;
-        left: 0;
-        background-color: pink;
-
-
-    }
-  
-   
-
-}

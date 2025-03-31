@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+}
+.inputBox input{
+    position: relative;
+    padding: 10px;
+    width: 120%;
+    height: 100%;
+    outline: none;
+    border: 9px solid palevioletred;
+    border-radius: 4px;
+
+}
+.inputBox  label{
+    position: absolute;
+
+}
