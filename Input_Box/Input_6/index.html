@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;     
+        }
+        h2{
+                margin-bottom: 10px;
+                font-size: 30px;
+            }
+        input{
+            padding: 10px 20px;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+        button{
+            font-size: 15px;
+            border-radius: 15px;
+            padding: 10px 20px;
+        }
+        #error{
+            color: red;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form onsubmit="return validateform()">
+        <h2>Login</h2>
+        <div id="error"></div>
+
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+<script>
+    function validateform(){
+        const email = document.getElementById("email").value
+        const password = document.getElementById("password").value
+        const error = document.getElementById("error")
+        if (!email.includes("@") || !email.includes(".")) {
+        error.textContent = "Please enter a valid email.";
+        return false;
+      }
+
+        if(password.length < 6){
+            error.textContent = "Password must be at least 6 characters.";
+            return false;
+        }
+
+        error.textContent ="";
+        alert("Form Submitted Successfully");
+        return true;
+    }
+</script>
+</html>
