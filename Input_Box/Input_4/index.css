@@ -12,16 +12,12 @@ body{
     gap: 20px;
 }
 .inputBox input{
-    position: relative;
     padding: 10px;
     width: 120%;
     height: 100%;
     outline: none;
     border: 9px solid palevioletred;
     border-radius: 4px;
-
-}
-.inputBox  label{
-    position: absolute;
+    font-size: 18px;
 
 }

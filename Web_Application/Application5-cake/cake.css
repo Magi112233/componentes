@@ -194,7 +194,7 @@ section{
    min-height: 84vh;
    /* min-height: 100vh; */
    background-color: aqua;
-   background-image:url(image/free-space-on-left-piece-260nw-2560488141.webp) ;
+   background-image:url(image/cakee.webp) ;
    background-repeat: no-repeat;
    background-size: cover;
    background-position: right;
@@ -206,16 +206,16 @@ section{
     margin-left: 20px;
 }
 .home .hero h3{
-    font-size: 6rem;
+    font-size: 4rem;
     text-transform: uppercase;
-    color: rgb(250, 8, 242);
+    color:#c0dbea;
 }
 .home .hero p{
     font-size: 2rem;
     font-weight: lighter;
     line-height: 3.2rem;
     padding: 1rem 0;
-    color: #695252;
+    color: #3a2e2e;
 }
 /* cake saction */
 .wrapper{
