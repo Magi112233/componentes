@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 16vh;
+    background-color: whitesmoke;
+}
+nav ul h1{
+    color: black;
+}
+nav a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(90, 74, 74);
+    font-size: 19px;
+}
+nav ul li:first-child{
+    margin-right: 550px;
+    letter-spacing: 1px;
+}
+nav ul li a span{
+    margin-top: 50px;
+    position: absolute;
+}
+
+
+/* ---------------------header------------------------------- */
+header{
+    background: url(img/mountain-4.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 84vh;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .text{
+    margin-top: 50px;
+}
+.content .text h3{
+    font-size: 20px;
+    margin-left: 200px;
+}
+.content .text h1{
+    font-weight:900;
+    font-size: 150px;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+}
+.content .text h5{
+    margin-left: 200px;
+    font-size: 20px;
+    color: rgb(68, 62, 62);
+}
+.content button{
+    margin-left: 310px;
+    font-size: 12px;
+    color: whitesmoke;
+    background-color: black;
+    padding: 10px 20px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+}
+/* -----------------------About------------------------------- */
+.aboutcontent{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutcon1{
+    width: 50%;
+    background-color: whitesmoke;
+}
+.aboutcon1 h3{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 6px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.aboutcon1 p{
+    font-size: 18px;
+    margin: 30px;
+    margin-left: 200px;
+    margin-right: 30px;
+}
+.aboutcon2{
+    width: 50%;
+    background-color: bisque;
+}
+.aboutcontent button{
+    font-size: 12px;
+    margin: 30px;
+    margin-left: 200px;
+    color: whitesmoke;
+    background-color: black;
+    padding: 10px 20px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+}
+.aboutcon2{
+    background: url(img/cat.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+}
+.aboutcon2 button{
+    margin-left: 500px;
+}
+/* -------------------------------------------------------------------- */
+.features{
+background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+}
+.features h2{
+    margin-left: 200px;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: bold;
+}
+.features h2 span{
+    position: absolute;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+ .boxs {
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.box{
+    width: 250px;
+    text-align: center;
+    border: 5px solid black;
+    margin-top: 20px;
+    height: 700%;
+}
+.head {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.box p{
+    margin-top:20px ;
+    font-size: 18px;
+}
+.time span{
+    font-size: 19px;
+    display: block;
+}
+.box button{
+    font-size: 12px;
+    color: whitesmoke;
+    background-color: black;
+    padding: 10px 20px;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+    margin-bottom: 30px;
+}
+.features .btn1{
+    position: absolute;
+    margin-left: 1200px;
+     font-size: 12px;
+    color: whitesmoke;
+    background-color: black;
+    padding: 10px 20px;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+}
+.features .btn2{
+   margin-left: 600px;
+   margin-bottom: 30px;
+      font-size: 12px;
+    color: whitesmoke;
+    background-color: black;
+    padding: 10px 20px;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+}
+/* --------------------------------Contact---------------------------------------------- */
+#contact{
+    display: flex;
+    justify-content: space-around;
+/* background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%); */
+background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+.contact{
+    width: 50%;
+    text-align: center;
+}
+.contact h2{
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.contact span{
+    margin-right: 130px;
+    font-weight: bolder;
+}
+address{
+    margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.number h5{
+    font-size:24px ;
+    margin-right: 60px;
+}
+.contact .email h5{
+    font-size: 25px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 80px;
+}
+.contact .info p{
+    font-size: 24px;
+    margin-left: 80px;
+}
+.contact .info p:last-child{
+    margin-left: 180px;
+}
+.contact .info p span{
+    text-decoration: underline;
+}
+
+
+.form_div{
+    width: 50%;
+}
+.form{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form label{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 360px;
+}
+.form input{
+    width: 70%;
+    font-size: 16px;
+    padding: 8px 10px;
+    border: 2px solid black;
+    margin-top: 10px;
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    outline: none;
+
+}
+.form_div .sub_btn{
+       font-size: 12px;
+    color: whitesmoke;
+    background-color: black;
+    padding: 10px 20px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+    margin-left: 500px;
+}
+.form_div .chat_btn{
+    /* position: absolute; */
+    margin-top: 100px;
+        font-size: 12px;
+    color: whitesmoke;
+    background-color: black;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+    margin-left: 530px;
+    margin-bottom: 60px;
+}
