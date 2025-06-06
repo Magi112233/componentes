@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 11vh;
+    margin-left: 450px;
+}
+ul li a{
+    font-size: 22px;
+    color: white;
+    margin-left: 45px;
+}
+ul li a:hover{
+    text-decoration: underline
+}
+.icons{
+    margin-right: 100px;
+}
+.icons svg{
+    color: white;
+    /* background-color: pink; */
+    margin-left: 15px;
+}
+/* ----------------------------------heading-------------- */
+.heading{
+    display: flex;
+    justify-content: space-between;
+    height: 11vh;
+    width: 100%;
+    background-color: white;
+    /* align-items: center; */
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.logo img{
+    width: 80%;
+    height: 80%;
+}
+.logo h2{
+    color: green;
+    text-transform: initial;
+}
+.detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    gap: 20px;
+}
+.detail h2{
+    font-size: 22px;
+    color: green;
+}
+.detail h2:last-child{
+    text-decoration: underline;
+}
+/* -----------------------------main----------------- */
+.main{
+    background-image: url(img/vegetable.jpeg);
+    height: 78vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text  h1{
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+}
+.text h6{
+    color: white;
+    font-size: 19px;
+   text-align: center;
+}
+/* -------------------------content--------------------- */
+.content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.views{
+    background-color: rgb(127, 240, 127);
+    width: 25%;
+    margin: 30px 30px ;
+   margin-bottom: 100px;
+   border-radius: 10px;
+
+}
+.views img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.views h2{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.views p{
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.form{
+     display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.form1{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+.form2{
+    margin: 20px;
+      display: flex;
+   flex-direction: column;
+   width: 50%;
+}
+.form label{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.form input{
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 30px;
+    width: 90%;
+    border-bottom: 1.5px solid black;
+
+}
+ #btn{
+    position: absolute;
+    font-size: 20px;
+    background-color: green;
+    outline: none;
+    border: none;
+    margin-top: 330px;
+    width: 69%;
+    margin-left: 21px;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 350px;
+    border-radius: 10px;
+}
