@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px;
+    font-size: 18px;
+    border: 0.1px rgb(228, 219, 219) solid;
+    background: white;
+
+}
+.icons .icon1 a{
+    margin-left: 60px;
+    color: black;
+}
+.icons .icon2 a{
+    margin-right: 300px;
+    color: black;
+}
+/* ---------------navbar------------------------------ */
+ul {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 90px;
+    padding: auto;
+}
+ul li {
+    list-style: none;
+    font-size: 19px;
+}
+ul li:first-child{
+    font-size: 31px;
+    
+}
