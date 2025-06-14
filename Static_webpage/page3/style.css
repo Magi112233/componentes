@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: sans-serif
 }
 .icons{
     display: flex;
@@ -35,5 +36,99 @@ ul li {
 }
 ul li:first-child{
     font-size: 31px;
-    
+    font-weight: bold;
+}
+nav button{
+    font-size: 13px;
+    padding: 10px;
+    background: rgb(236, 235, 235);
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+/* ------------------------main------------------------------------------ */
+.main{
+    background: url(im/yellow.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 555px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.main .left button{
+    padding: 8px;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+.main .right{
+   margin-right: 300px;
+   color: white;
+}
+.right h4{
+   font-weight: 100;
+   font-size: 20px;
+   letter-spacing: 2px;
+}
+.right h1{
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.right  .btn1{
+    background: white;
+    color: black;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.right .btn2{
+    position: absolute;
+    margin-left: 445px;
+   margin-bottom: 800px;
+     padding: 8px;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+/* ---------------------------content---------------------------------------    */
+.content h3{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+}
+ .content nav{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-top: 30px;
+}
+ .content nav button{
+    font-size: 18px;
+    padding: 10px;
+    background: deeppink;
+    color: white;
+    border-radius: 15px;
+ }
+nav li{
+    list-style: none;
+}
+li a{
+    color: black;
+}
+/* ----------------------cards-------------------------------------------------------- */
+.cards{
+    display: flex;
+  justify-content: space-around;
 }
